@@ -13,6 +13,7 @@
 .gridTwo {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
+    margin-top: 20px;
 }
 
 
@@ -26,4 +27,30 @@
 
 .yellow {
     background-color: yellow;
+}
+
+/* GRID 3 STYLES */
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+   
+}
+
+.three_text {
+    background-color: lightgrey;
+}
+
+.three_image {
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.three_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
