@@ -91,3 +91,21 @@
     object-fit: cover;
     padding: 10px 10px 5px 5px;
 }
+
+/* GRID 6 STYLES */
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgrey;
+    margin-top: 20px;
+    height: 60px;
+}
+
+.gridSix_text {
+    display: flex;
+    align-items: center;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: bold;
+}
