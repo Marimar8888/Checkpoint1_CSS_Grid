@@ -7,3 +7,23 @@
     background-color: lightgrey;
     padding-left: 5px;
 }
+
+/* GRID 2 STYLES */
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+
+.blue {
+    background-color: lightblue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
