@@ -37,7 +37,7 @@
     width: 500px;
     height: 300px;
     margin-top: 10px;
-   
+
 }
 
 .three_text {
@@ -49,8 +49,23 @@
     background-color: aqua;
 }
 
-.three_image img{
+.three_image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* GRID 4 STYLES */
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: green;
+    width: 500px;
+    margin-top: 20px;
+}
+
+#four_second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
