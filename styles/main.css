@@ -1,0 +1,9 @@
+/* GRID 1 STYLES */
+
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    background-color: lightgrey;
+    padding-left: 5px;
+}
